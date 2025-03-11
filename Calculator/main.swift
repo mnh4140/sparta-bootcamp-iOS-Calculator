@@ -52,12 +52,14 @@ print(" > 빼기 결과:", difference)
 let product = calculator.mul(10, 20)
 print(" > 곱하기 결과:", product)
 
-let quotient = calculator.div(60, 20)
-print(" > 나누기 결과:", quotient)
-
+// if let을 사용해 옵셔널 언래핑
+if let quotient = calculator.div(60, 20) {
+    print(" > 나누기 결과:", quotient)
+}
 // 예외 상황: num2가 0일 때
 print("\n예외상황 처리 확인")
 
-let result1 = calculator.div(6, 0)
-print(" 나누기 결과:", result1)  // 실행 안 됨 (에러 메시지만 출력)
-
+// if let을 사용해 옵셔널 언래핑
+if let result1 = calculator.div(6, 0) {
+    print(" > 나누기 결과:", result1)  // 실행 안 됨 (에러 메시지만 출력)
+}
