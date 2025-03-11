@@ -13,22 +13,22 @@ import Foundation
 
 class Calculator {
    // 더하기
-   func add(_ num1: Int, _ num2: Int) {
+    func add(_ num1: Double, _ num2: Double) {
        print("num1 + num2 = ", num1 + num2)
    }
    
    // 빼기
-   func sub(_ num1: Int, _ num2: Int) {
+   func sub(_ num1: Double, _ num2: Double) {
        print("num1 - num2 = ", num1 - num2)
    }
    
    // 곱하기
-   func mul(_ num1: Int, _ num2: Int) {
+   func mul(_ num1: Double, _ num2: Double) {
        print("num1 * num2 = ", num1 * num2)
    }
    
    // 나누기
-   func div(_ num1: Int, _ num2: Int) {
+   func div(_ num1: Double, _ num2: Double) {
        print("num1 / num2 = ", num1 / num2)
    }
 }
