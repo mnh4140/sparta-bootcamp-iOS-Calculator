@@ -13,31 +13,40 @@ import Foundation
 
 class Calculator {
    // 더하기
-    func add(_ num1: Double, _ num2: Double) {
-       print("num1 + num2 = ", num1 + num2)
+    func add(_ num1: Double, _ num2: Double) -> Double {
+       return num1 + num2
    }
    
    // 빼기
-   func sub(_ num1: Double, _ num2: Double) {
-       print("num1 - num2 = ", num1 - num2)
+   func sub(_ num1: Double, _ num2: Double) -> Double {
+       return num1 - num2
    }
    
    // 곱하기
-   func mul(_ num1: Double, _ num2: Double) {
-       print("num1 * num2 = ", num1 * num2)
+   func mul(_ num1: Double, _ num2: Double) -> Double {
+       return num1 * num2
    }
    
    // 나누기
-   func div(_ num1: Double, _ num2: Double) {
-       print("num1 / num2 = ", num1 / num2)
+   func div(_ num1: Double, _ num2: Double) -> Double {
+       return num1 / num2
    }
 }
 
 let calculator = Calculator() // 인스턴스 생성하여 변수에 할당
 
-calculator.add(10, 5) // 10 + 5 =  15
-calculator.sub(2, 7) // 2 - 7 =  -5
-calculator.mul(3, 9) // 3 * 9 =  27
-calculator.div(6, 4) // 6 / 4 =  1
+print("사직연산 결과")
 
+// 사칙 연산 테스트
+let sum = calculator.add(10, 20)
+print(" > 더하기 결과:", sum)
+
+let difference = calculator.sub(30, 20)
+print(" > 빼기 결과:", difference)
+
+let product = calculator.mul(10, 20)
+print(" > 곱하기 결과:", product)
+
+let quotient = calculator.div(60, 20)
+print(" > 나누기 결과:", quotient)
 
