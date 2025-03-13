@@ -6,7 +6,7 @@
 //
 
 class MultiplyOperation: AbstractOperation {
-    func calculation(_ num1: Double, _ num2: Double) -> Double?{
+    func calculation(_ num1: Double, _ num2: Double) -> Double? {
         return num1 * num2
     }
 }

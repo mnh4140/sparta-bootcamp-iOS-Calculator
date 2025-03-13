@@ -26,3 +26,8 @@ if let mulCalc = calculator.calculation(MultiplyOperation(), 10, 20) {
 if let divCalc = calculator.calculation(DivideOperation() ,10, 20) {
     print(" > 나눗셈\t: \(divCalc)")
 }
+
+// 예외 상황 테스트 (0으로 나누기)
+if let errorTest = calculator.calculation(DivideOperation(), 6, 0){
+    print(errorTest) // Error : 0으로 나눌 수 없습니다.
+}

@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		ED67B1A82D7ED1BA00163BCE /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = ED67B1A72D7ED1B200163BCE /* README.md */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXCopyFilesBuildPhase section */
 		ED67B19B2D7ECFFB00163BCE /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
@@ -50,8 +46,8 @@
 			isa = PBXGroup;
 			children = (
 				ED67B19F2D7ECFFB00163BCE /* Calculator */,
-				ED67B19E2D7ECFFB00163BCE /* Products */,
 				ED67B1A72D7ED1B200163BCE /* README.md */,
+				ED67B19E2D7ECFFB00163BCE /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -127,7 +123,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED67B1A82D7ED1BA00163BCE /* README.md in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
