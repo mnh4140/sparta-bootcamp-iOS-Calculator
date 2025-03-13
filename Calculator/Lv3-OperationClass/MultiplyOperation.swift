@@ -5,8 +5,9 @@
 //  Created by NH on 3/11/25.
 //
 
-class MultiplyOperation: AbstractOperation {
-    func calculation(_ num1: Double, _ num2: Double) -> Double? {
+// Lv3 곱셈 연산 클래스
+class MultiplyOperation: AbstractOperation { // Lv4 추상화 프로토콜 채택
+    func calculation(_ num1: Double, _ num2: Double) -> Double? { // Lv4 프로토콜 채택으로 형식 준수
         return num1 * num2
     }
 }
